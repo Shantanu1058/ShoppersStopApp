@@ -91,7 +91,7 @@ class _ItemDetailsScreenState extends State<ItemDetailsScreen> {
               ),
               Flexible(
                 child: Container(
-                  padding: const EdgeInsets.only(top: 6),
+                  padding: const EdgeInsets.only(top: 7),
                   child: Text(
                     widget.product.description,
                     overflow: TextOverflow.fade,
